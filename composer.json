@@ -6,7 +6,8 @@
 	"require": {
 		"laravel/framework": "4.1.*",
 		"guzzle/guzzle": "dev-master",
-		"way/form": "dev-master"
+		"way/form": "dev-master",
+		"fzaninotto/faker": "dev-master"
 	},
 	"require-dev": {
 		"way/generators": "1.1"
@@ -19,10 +20,7 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php"
-		],
-        "psr-0": {
-            "Acme": "app/"
-        }
+		]
 	},
 	"scripts": {
 		"post-install-cmd": [
